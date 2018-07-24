@@ -1,0 +1,53 @@
+.sy-coupon_wrap {
+  box-sizing:border-box;
+  position: relative;
+  width:350px;
+  height: 150px;
+  border:#dbdbdb solid 1px;
+  .sy-coupon_info {
+    box-sizing:border-box;
+    height: 110px;
+    padding:30px;
+    display: flex;
+    align-items: center;
+    border-bottom: #dbdbdb dashed 1px;
+    .sy-coupon_money {
+      font-size: 30px;
+      color:#ff4b78;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+    .sy-coupon_text {
+      font-weight: bold;
+      font-size: 16px;
+      color: #555;
+    }
+  }
+  .sy-coupon_shade{
+    box-sizing:border-box;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: 100;
+    background:rgba(0,0,0,0.5);
+    height: 110px;
+    width: 349px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sy-coupon_time {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+    padding:0 10px;
+    font-size: 12px;
+    color:#666;
+    font-weight: bold;
+    .sy-coupon_icon{
+      margin-left: 5px;
+      cursor:pointer;
+    }
+  }
+}
